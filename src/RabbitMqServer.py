@@ -1,4 +1,6 @@
 import json
+import os.path
+
 from configurations.RabbitMqServerConfigure import RabbitMqServerConfigure
 import pika
 from models.Payload import Payload
